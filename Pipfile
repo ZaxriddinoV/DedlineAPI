@@ -1,0 +1,22 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+fastapi = "*"
+uvicorn = "*"
+sqlalchemy = "*"
+psycopg2 = "*"
+bump-pydantic = "*"
+sqlalchemy-utils = "*"
+pyjwt = "==2.6.0"
+alembic = "*"
+email-validator = "*"
+python-decouple = "==3.7"
+pydantic = {extras = ["email"], version = "*"}
+
+[dev-packages]
+
+[requires]
+python_version = "3.11"
